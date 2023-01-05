@@ -9,11 +9,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
 }
 
-.card{
+main{
     display: flex;
     flex-wrap: nowrap;
     background-color: white;
@@ -69,7 +68,6 @@ body {
 }
 
 .price2{
-    text-decoration: line-through;
     color: hsl(228, 12%, 48%);
 }
 
@@ -85,12 +83,12 @@ body {
     text-align: center;
 }
 
-.attribution { 
+footer { 
     font-size: 11px;
     text-align: center;
 }
 
-.attribution a {
+footer a {
     color: hsl(228, 45%, 44%);
 }
 
@@ -105,7 +103,7 @@ body {
         display: flex;
     }
     
-    .card{
+    main{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -164,7 +162,6 @@ body {
     }
     
     .price2{
-        text-decoration: line-through;
         color: hsl(228, 12%, 48%);
         margin-left: 20px;
     }
